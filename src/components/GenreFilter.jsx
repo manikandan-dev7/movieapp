@@ -1,6 +1,4 @@
-
 const GenreFilter = ({genreList, setSelectedGenre}) => {
-    
   return (
     <select className='p-2 bg-gray-900/60 backdrop-blur-md text-white border rounded'
     onChange={(e) => setSelectedGenre(e.target.value)}>
