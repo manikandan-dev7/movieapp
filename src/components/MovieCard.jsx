@@ -8,10 +8,10 @@ const MovieCard = ({ movie }) => {
   const inWatchList = watchlist.some((m) => m.id === movie.id);
 
   return (
-    <div className="relative group rounded-2xl p-3 shadow-xl border border-white/10 transition-all duration-300 hover:-translate-y-1 hover:scale-[1.01] bg-dark-card">
+    <div className="relative group rounded-2xl p-3 shadow-xl border border-white/10 transition-all duration-300 hover:-translate-y-1 hover:scale-[1.01] bg-dark-card pagination">
       
       {/* Poster */}
-      <div className="relative overflow-hidden rounded-xl aspect-[2/3] mb-3">
+      <div className="relative overflow-hidden rounded-xl aspect-ratio mb-3">
         <img
           src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
           alt={movie.title}

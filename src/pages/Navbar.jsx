@@ -12,18 +12,18 @@ const Navbar = () => {
         {/* Logo */}
         <Link
           to="/"
-          className="font-display text-2xl md:text-3xl font-bold tracking-tight text-white hover:text-pink-400 transition-all duration-200"
+          className="font-display text-2xl md:text-3xl font-bold tracking-tight text-white hover:text-purple-400 transition-all duration-200"
         >
-          Movie<span className="text-pink-500">App</span>
+          Movie<span className="text-red-700">App</span>
         </Link>
 
         {/* Watchlist */}
         <Link
           to="/watchlist"
-          className="relative font-display text-lg md:text-xl text-gray-200 hover:text-pink-400 transition-all duration-200"
+          className="relative font-display text-lg md:text-xl text-gray-200 hover:text-red-700 transition-all duration-200"
         >
           Watchlist
-          <span className="ml-2 inline-flex items-center justify-center px-2 py-0.5 bg-pink-500 text-black font-semibold rounded-full text-sm shadow-[0_0_8px_rgba(236,72,153,0.9)]">
+          <span className="ml-2 inline-flex items-center justify-center px-2 py-0.5 bg-red-700 text-black font-semibold rounded-full text-sm shadow-[0_0_8px_rgba(236,72,153,0.9)]">
             {watchlist.length}
           </span>
         </Link>
