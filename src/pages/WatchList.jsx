@@ -20,10 +20,10 @@ const WatchList = () => {
     });
 
   return (
-    <div className="min-h-screen gradient-bg from-slate-950 via-slate-900 to-slate-950 text-white pt-24 pb-10 px-4 md:px-8">
+    <div className="min-h-screen bg-blue-950 text-white pt-24 pb-10 px-4 md:px-8">
       {/* Header */}
       <header className="flex flex-col gap-2 mb-6 md:mb-8">
-        <h1 className="font-display text-3xl md:text-4xl font-bold tracking-tight text-white drop-shadow-[0_0_18px_rgba(236,72,153,0.4)]">
+        <h1 className="font-display text-3xl md:text-4xl font-bold tracking-tight text-red-600 drop-shadow-[0_0_18px_rgba(236,72,153,0.4)] hover:cursor-pointer">
           Watchlist
         </h1>
         <p className="text-sm md:text-base text-gray-300/80">

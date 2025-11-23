@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
-.gradient-bg {
+/* .gradient-bg {
   background: linear-gradient(to bottom, #0f0f17, #11121a, #0b0c12);
   min-height: 100vh;
   width: 100%;
-}
+} */
 /* Card background */
 .bg-dark-card {
-  background: linear-gradient(135deg, #0f0f16, #1a1a28, #11111a);
+  background:  #0f0f16
 }
 
 /* Year badge */
@@ -81,9 +81,10 @@
   opacity: 0.8;
 }
 .pagination:hover{
-  box-shadow: 0 0 25px rgba(61, 61, 61, 1);
+  box-shadow: 0 0 25px #0f0f16;
   background: rgba(85, 34, 204, 0.8);
 }
+
 .aspect-ratio {
   aspect-ratio: 2 / 3;
   width: 100%;

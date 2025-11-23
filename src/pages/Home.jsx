@@ -19,7 +19,7 @@ const Home = () => {
   }, [page, search])
 
   return (
-    <div className='p-4 pt-16'>
+    <div className='p-4 pt-16 bg-blue-950'>
       <input type="text" placeholder='Search movies...'
         className='p-2 w-3/4 md:1/2 border rounded border-gray-700 bg-gray-900/60 text-white backdrop-blur-md fixed top-16 left-1/2 transform -translate-x-1/2 z-10'
         onChange={(e) => setSearch(e.target.value)} />
